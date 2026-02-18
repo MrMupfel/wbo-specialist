@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-itunes-app" content="app-id=6759068976">
-    <title>WBO-specialist</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -35,7 +33,7 @@
     </script>
 </head>
 
-<body class="bg-base text-text font-sans antialiased">
+<body class="bg-base text-text font-sans antialiased flex flex-col min-h-screen">
 
     <nav class="w-full py-6 px-6 lg:px-12 flex justify-between items-center max-w-7xl mx-auto">
         <div class="flex items-center gap-3">
@@ -49,44 +47,41 @@
             </a>
     </nav>
 
-    <main class="w-full flex flex-col items-center pt-16 pb-24 px-6 text-center lg:pt-22">
+    <main class="w-full mx-auto flex-grow flex flex-col items-center pt-16 pb-24 px-6 lg:pt-22 text-l">
 
-        <h1 class="text-3xl md:text-6xl font-extrabold tracking-tight mb-6">
-            Deine Weiterbildung. <span class="text-blue block md:inline">Dein Logbuch.</span>
-        </h1>
+        <h1 class="text-3xl font-bold mb-10 text-blue">Open Source Licenses</h1>
 
-        <p class="text-lg md:text-xl text-text max-w-2xl mb-10 leading-relaxed">
-            Auf dem Weg zum Facharzt endlich ohne Exceltabellen oder Zettelwirtschaft. Intuitiv, schnell und immer
-            dabei.
-        </p>
+        <ul class="w-full space-y-6 text-left">
 
-        <a href="https://apps.apple.com/de/app/who-specialist/id6759068976" target="blank"
-            class="inline-block hover:opacity-80 transition-opacity mb-12">
-            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000"
-                alt="Download on the App Store" class="h-[60px] w-auto">
-        </a>
+            <li class="flex items-start gap-3">
+                <span class="text-blue mt-1">•</span>
+                <span>
+                    Palette by <a href="https://catppuccin.com" target="_blank"
+                        class="font-bold hover:text-blue underline decoration-blue/30 underline-offset-4 transition">Catppuccin</a>
+                    <span class="block text-sm opacity-60">Used under MIT License</span>
+                </span>
+            </li>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl mx-auto">
+            <li class="flex items-start gap-3">
+                <span class="text-blue mt-1">•</span>
+                <span>
+                    Paywall Header by <a href="https://www.flaticon.com" target="_blank"
+                        class="font-bold hover:text-blue underline decoration-blue/30 underline-offset-4 transition">themefire</a>
+                    <span class="block text-sm opacity-60">Used under CC BY 4.0</span>
+                </span>
+            </li>
 
-            <div class="flex flex-col items-center">
-                <div>
-                    <img src="img/1.png" alt="App Screenshot 1" class="w-full h-auto rounded-[40px]">
-                </div>
-            </div>
+            <li class="flex items-start gap-3">
+                <span class="text-blue mt-1">•</span>
+                <span>
+                    Font <a href="https://fonts.google.com/specimen/Megrim?query=Daniel+Johnson" target="_blank"
+                        class="font-bold hover:text-blue underline decoration-blue/30 underline-offset-4 transition">Megrim</a>
+                    <span class="block text-sm opacity-60">Used under OFL 1.1</span>
+                </span>
+            </li>
 
-            <div class="flex flex-col items-center">
-                <div>
-                    <img src="img/2.png" alt="App Screenshot 2" class="w-full h-auto rounded-[40px]">
-                </div>
-            </div>
+        </ul>
 
-            <div class="flex flex-col items-center">
-                <div>
-                    <img src="img/3.png" alt="App Screenshot 3" class="w-full h-auto rounded-[40px]">
-                </div>
-            </div>
-
-        </div>
 
     </main>
 
@@ -96,7 +91,7 @@
             <div>
                 &copy; 2026 speciaList. All rights reserved.
             </div>
-            
+
             <div class="flex gap-6">
                 <a href="/impressum" class="hover:text-blue transition">Impressum</a>
                 <a href="/terms" class="hover:text-blue transition">AGB</a>
