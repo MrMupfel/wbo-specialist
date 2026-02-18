@@ -9,19 +9,24 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        sans: ['Lato', 'sans-serif'],
                     },
                     colors: {
-                        blue: '#8caaee', 
+                        blue: '#8caaee',
                         base: '#24273a',
-                        text: '#cad3f5', 
+                        text: '#cad3f5',
                     }
                 }
             }
@@ -34,14 +39,13 @@
     <nav class="w-full py-6 px-6 lg:px-12 flex justify-between items-center max-w-7xl mx-auto">
         <div class="flex items-center gap-3">
             <div class="w-10 h-10">
-                    <img src="img/logo.png" alt="App Logo"">
+                <img src="img/logo.png" alt="App Logo"">
             </div>
-            <span class="text-xl font-bold tracking-tight">SpeciaList</span>
-        </div>
-        <a href="mailto:info@wbo-specialist.de"
-            class="text-sm font-semibold text-text hover:text-brand transition">
-            Contact Support
-        </a>
+            <span class=" text-xl font-bold tracking-tight">SpeciaList</span>
+            </div>
+            <a href="mailto:info@wbo-specialist.de" class="text-sm font-semibold text-text hover:text-brand transition">
+                 Contact Support
+            </a>
     </nav>
 
     <main class="w-full flex flex-col items-center pt-16 pb-24 px-6 text-center lg:pt-22">
@@ -51,10 +55,11 @@
         </h1>
 
         <p class="text-lg md:text-xl text-text max-w-2xl mb-10 leading-relaxed">
-            Auf dem Weg zum Facharzt endlich ohne Exceltabellen oder Zettelwirtschaft. Einfach, sicher und immer dabei.
+            Auf dem Weg zum Facharzt endlich ohne Exceltabellen oder Zettelwirtschaft. Intuitiv, schnell und immer dabei.
         </p>
 
-        <a href="https://apps.apple.com/de/app/who-specialist/id6759068976" target="blank" class="inline-block hover:opacity-80 transition-opacity mb-20">
+        <a href="https://apps.apple.com/de/app/who-specialist/id6759068976" target="blank"
+            class="inline-block hover:opacity-80 transition-opacity mb-20">
             <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1276560000"
                 alt="Download on the App Store" class="h-[60px] w-auto">
         </a>
@@ -63,22 +68,19 @@
 
             <div class="flex flex-col items-center">
                 <div>
-                    <img src="img/1.png" alt="App Screenshot 1"
-                        class="w-full h-auto rounded-[40px]">
+                    <img src="img/1.png" alt="App Screenshot 1" class="w-full h-auto rounded-[40px]">
                 </div>
             </div>
 
             <div class="flex flex-col items-center">
                 <div>
-                    <img src="img/2.png" alt="App Screenshot 2"
-                        class="w-full h-auto rounded-[40px]">
+                    <img src="img/2.png" alt="App Screenshot 2" class="w-full h-auto rounded-[40px]">
                 </div>
             </div>
 
             <div class="flex flex-col items-center">
                 <div>
-                    <img src="img/3.png" alt="App Screenshot 3"
-                        class="w-full h-auto rounded-[40px]">
+                    <img src="img/3.png" alt="App Screenshot 3" class="w-full h-auto rounded-[40px]">
                 </div>
             </div>
 
@@ -94,7 +96,7 @@
             </div>
             <div class="flex gap-6">
                 <a href="/impressum" class="hover:text-gray-900 transition">Impressum</a>
-                <a href="/legal" class="hover:text-gray-900 transition">AGB</a>
+                <a href="/terms" class="hover:text-gray-900 transition">AGB</a>
                 <a href="/privacy" class="hover:text-gray-900 transition">Datenschutzerklärung</a>
             </div>
         </div>
